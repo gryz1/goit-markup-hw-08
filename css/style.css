@@ -56,19 +56,19 @@ body {
 }
 /* Секция кнопок */
 
-.button-list {
+.button-nav {
   list-style: none;
 }
 
-.button {
+.button-nav .link {
   color: var(--title-text-color);
-  background-color: var(--primary-bg-color);
 }
 
-.button .link:hover,
-.button .link:focus {
-  color: var(--primary-bg-color);
-  background-color: var(--accent-color);
+.button-nav .link:hover,
+.button-nav .link:focus {
+  --title-text-color: var(--primary-text-color);
+  background-color: var(--active-color);
+  cursor: pointer;
 }
 
 /* Секция услуг */
