@@ -46,6 +46,10 @@ body {
 .site-nav .link:focus {
   --title-text-color: var(--active-color);
 }
+
+.site-nav .link .current {
+  color: var(--active-color);
+}
 /*  Conctact */
 .contact-nav .link {
   color: var(--accent-color);
