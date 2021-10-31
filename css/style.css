@@ -1,17 +1,104 @@
-/* Боди  ?????*/
-.page {
-  color: #212121;
-  background-color: #e5e5e5;
+:root {
+  --primary-text-color: #e5e5e5;
+  --title-text-color: #212121;
+  --accent-color: #757575;
+  --primary-bg-color: #ffffff;
+  --active-color: #2196f3;
+  --dark-background: #2f303a;
 }
 
-/* Шапка макете ( слово из двух цветов) ????? */
-.web-studio {
-}
-
-/* убрал токи и нумерацию списков по классу list */
+/* global style */
 .list {
   list-style: none;
 }
 
-.site-nav {
+.link {
+  text-decoration: none;
+}
+
+/* Body*/
+.page {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-colour);
+}
+
+body {
+  font-family: Roboto, Raleway;
+}
+
+/* Шапка макете ( слово из двух цветов) ????? */
+.web-studio span,
+.web-studio-footer span {
+  color: var(--active-color);
+}
+.web-studio {
+  color: #000000;
+  font-weight: bold;
+}
+
+/*  шапка */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  --title-text-color: var(--active-color);
+}
+/*  Conctact */
+.contact-nav .link {
+  color: var(--accent-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  --accent-color: var(--active-color);
+}
+/* Секция кнопок */
+
+.button-list {
+  list-style: none;
+}
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.button .link:hover,
+.button .link:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+/* Секция услуг */
+.section-title {
+  color: var(--title-text-color);
+}
+
+.section-work {
+  color: var(--accent-color);
+}
+
+/* footer */
+.address {
+  font-style: normal;
+}
+
+.footer * {
+  color: #ffffff;
+}
+
+.footer {
+  background-color: var(--dark-background);
+}
+
+.address .link {
+  opacity: 0.6;
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--active-color);
+  opacity: 1;
 }
