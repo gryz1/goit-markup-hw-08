@@ -8,7 +8,7 @@
   --main-index-color: #ffffff;
 }
 
-/* global style */
+/* global style and style decor */
 .list {
   list-style: none;
 }
@@ -101,15 +101,17 @@ button {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.02em;
 }
 
-/*  шапка */
+/*  Navigator header */
 
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -120,15 +122,18 @@ button {
 .site-nav .link .current {
   color: var(--active-color);
 }
-/*  Conctact */
+
+/*  Conctact header*/
+
 .contact-nav .link {
   color: var(--accent-color);
+  letter-spacing: 0.02em;
 }
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   --accent-color: var(--active-color);
 }
-/* Секция кнопок */
+/* Section button */
 
 .button-nav {
   list-style: none;
@@ -152,6 +157,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.06em;
 }
 
 .button-nav .btn:hover,
@@ -160,19 +166,21 @@ button {
   background-color: var(--active-color);
 }
 
-/* Секция услуг */
+/* Section service */
 
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .section-work {
   color: var(--accent-color);
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
