@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="page">
     <!--Шапка макета-->
     <header>
         <nav>
@@ -31,17 +31,16 @@
         </ul>
     </header>
     <main>
-        <!--Возможен банер герой-->
-        <div>
-            <section class="button-nav list">
-                <h1 class="nav-list-index">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="link">Заказать услугу</button>
-            </section>
-        </div>
+        <!--Возможен банер герой--> 
+        <!-- button-nav list -->
+        <section class="banner">
+            <h1 class="nav-list-index">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="btn">Заказать услугу</button>
+        </section>
 
         <!--Плюсы компании-->
         <section>
-            <h2 hidden>Плюсы компании</h2>
+            <h2 class="visually-hidden">Плюсы компании</h2>
             <ul class="tasks list">
                 <li>
                     <h3 class="company-advantages">Внимание к деталям</h3>
