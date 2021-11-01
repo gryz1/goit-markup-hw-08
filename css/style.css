@@ -5,6 +5,7 @@
   --primary-bg-color: #ffffff;
   --active-color: #2196f3;
   --dark-background: #2f303a;
+  --main-index-color: #ffffff;
 }
 
 /* global style */
@@ -15,18 +16,46 @@
 .link {
   text-decoration: none;
 }
+/* Body index */
 
-/* Body*/
+.nav-list-index {
+  color: var(--main-index-color);
+}
+
+.company-advantages {
+  color: var(--title-text-color);
+}
+
+.function {
+  color: var(--accent-color);
+}
+
+.our-work {
+  color: var(--title-text-color);
+}
+
+.our-team {
+  color: var(--title-text-color);
+}
+
+.teammate {
+  color: var(--title-text-color);
+}
+
+.work-our-teammate {
+  color: var(--accent-color);
+}
+/* Body Porfolio*/
 .page {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-colour);
 }
 
 body {
-  font-family: Roboto, Raleway;
+  font-family: Roboto, sans-serif;
 }
 
-/* Шапка макете ( слово из двух цветов) ????? */
+/* Header maket */
 .web-studio span,
 .web-studio-footer span {
   color: var(--active-color);
@@ -34,6 +63,8 @@ body {
 .web-studio {
   color: #000000;
   font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 /*  шапка */
@@ -76,6 +107,7 @@ body {
 }
 
 /* Секция услуг */
+
 .section-title {
   color: var(--title-text-color);
 }
