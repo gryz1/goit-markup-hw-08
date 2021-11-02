@@ -192,6 +192,13 @@ button {
   color: #ffffff;
 }
 
+.link .location {
+  color: var(--main-index-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 .footer,
 .banner {
   background-color: var(--dark-background);
