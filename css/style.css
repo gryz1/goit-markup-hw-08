@@ -97,11 +97,12 @@ button {
   color: var(--active-color);
 }
 .web-studio {
+  font-family: Raleway;
   color: #000000;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 
 /*  Navigator header */
@@ -127,6 +128,9 @@ button {
 
 .contact-nav .link {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contact-nav .link:hover,
@@ -178,6 +182,7 @@ button {
 
 .section-work {
   color: var(--accent-color);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -192,8 +197,17 @@ button {
   color: #ffffff;
 }
 
-.link .location {
+.web-studio-footer {
+  font-family: Raleway;
   color: var(--main-index-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.list .location {
+  color: var(--main-index-color);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -205,6 +219,11 @@ button {
 }
 
 .address .link {
+  color: var(--accent-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
   opacity: 0.6;
 }
 
