@@ -11,11 +11,13 @@
 
 .container {
   max-width: var(--container-width);
+  margin: auto;
+  padding: 0 15px;
 }
 
 .header {
   display: grid;
-  margin: auto;
+
   border-bottom: 1px solid #ececec;
 }
 
@@ -38,6 +40,7 @@
 /* global style and style decor */
 .list {
   list-style: none;
+  padding-inline-start: 0;
 }
 
 body {
@@ -82,26 +85,27 @@ button {
   margin: auto;
 }
 
-.tasks {
-  width: 1170px;
-  height: 101px;
-  margin-left: 215px;
+.advantages {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.tasks .company-advantages {
+.advantage {
+  width: 270px;
+  letter-spacing: 0.03em;
+}
+
+.advantages .company-advantages {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  width: 270px;
   height: 16px;
   margin-left: center;
 }
 
-.tasks .function {
+.advantages .function {
   color: var(--accent-color);
   font-size: 14px;
   line-height: 2;
@@ -135,6 +139,7 @@ button {
 .container .what-we-do {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .work-our-teammate {
   color: var(--accent-color);
@@ -145,6 +150,7 @@ button {
 
 .container .team {
   display: flex;
+  justify-content: space-between;
 }
 
 /* Body Porfolio*/
