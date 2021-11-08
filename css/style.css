@@ -103,6 +103,16 @@ button {
   height: 75px;
 }
 
+.team {
+  background-color: #ffffff;
+}
+
+.teamteam {
+  background-color: #f5f4fa;
+  border: 1px solid #eeeeee;
+  border-top-color: transparent;
+}
+
 .our-work,
 .our-team {
   color: var(--title-text-color);
