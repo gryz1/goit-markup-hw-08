@@ -82,11 +82,12 @@ button {
   margin: auto;
 }
 
-.container .tasks {
+.tasks {
   width: 1170px;
   height: 101px;
-  margin: auto;
+  margin-left: 215px;
   display: flex;
+  justify-content: center;
 }
 
 .tasks .company-advantages {
@@ -95,12 +96,17 @@ button {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  width: 270px;
+  height: 16px;
+  margin-left: centr;
 }
 
 .tasks .function {
   color: var(--accent-color);
   font-size: 14px;
   line-height: 2;
+  width: 270px;
+  height: 75px;
 }
 
 .our-work,
