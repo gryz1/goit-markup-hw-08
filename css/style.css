@@ -108,15 +108,18 @@ button {
 }
 
 .team {
-  background-color: #ffffff;
+  background-color: inherit;
 }
 
 .shadow {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.shadow {
+  background-color: inherit;
+}
+
 .teamteam {
-  background-color: #f5f4fa;
   border: 1px solid #eeeeee;
   border-top-color: transparent;
 }
@@ -162,11 +165,6 @@ button {
   text-align: center;
 }
 
-/* .container .team {
-  display: flex;
-  justify-content: space-between;
-} */
-
 /* Body Porfolio*/
 .page {
   background-color: var(--primary-bg-color);
@@ -199,6 +197,7 @@ button {
   font-size: 0;
 }
 .our-porfolio-border {
+  background-color: #ffffff;
   border: 1px solid #eeeeee;
   border-top-color: transparent;
 }
@@ -325,9 +324,13 @@ button {
 
 /* footer */
 .footer .container {
-  height: 252px;
+  height: 250px;
+  padding-top: 60px;
 }
 
+.address {
+  padding-bottom: 60px;
+}
 .container .web-studio-footer {
   padding-top: 60px;
 }
@@ -381,15 +384,18 @@ button {
 }
 
 .container-employee {
+  background-color: #f5f4fa;
   height: auto;
-  padding: auto;
+}
+
+.container-employee .teamteam {
+  padding-bottom: 94px;
 }
 
 .teamteam .team {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  background-color: #f5f4fa;
 }
 
 .teamteam li:not(:last-child),
