@@ -134,17 +134,18 @@ button {
   text-align: center;
 }
 
-.container .our-work {
+/* .container .our-work {
   justify-content: center;
   display: flex;
   flex-direction: row;
-}
+} */
 
 .container .what-we-do {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .work-our-teammate {
   color: var(--accent-color);
   font-size: 16px;
@@ -152,10 +153,10 @@ button {
   text-align: center;
 }
 
-.container .team {
+/* .container .team {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /* Body Porfolio*/
 .page {
@@ -359,3 +360,19 @@ button {
   color: var(--active-color);
   opacity: 1;
 }
+
+.container-employee {
+  height: auto;
+  padding: auto;
+}
+
+.teamteam .team {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #f5f4fa;
+}
+
+.teamteam li:not(:last-child),
+.team li:not(:last-child) {
+  margin-right: 30px;
