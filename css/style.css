@@ -117,6 +117,10 @@ button {
   border-top-color: transparent;
 }
 
+.section-work {
+  padding-bottom: 94px;
+}
+
 .our-work,
 .our-team {
   color: var(--title-text-color);
