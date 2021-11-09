@@ -154,12 +154,6 @@ img {
   text-align: center;
 }
 
-/* .container .our-work {
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-} */
-
 .container .what-we-do {
   display: flex;
   flex-direction: row;
@@ -206,15 +200,16 @@ img {
 }
 
 .our-porfolio-border {
-  /* background-color: #ffffff; */
   border: 1px solid #eeeeee;
   border-top-color: transparent;
 }
+
 /* Header maket */
 .web-studio span,
 .web-studio-footer span {
   color: var(--active-color);
 }
+
 .web-studio {
   margin-right: 90px;
   align-items: center;
@@ -267,6 +262,7 @@ img {
 .contact-nav .link:focus {
   --accent-color: var(--active-color);
 }
+
 /* Section button */
 
 .section .section-service {
@@ -372,6 +368,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .list .location {
   color: var(--main-index-color);
   font-weight: 400;
