@@ -33,11 +33,19 @@
 body {
   font-family: Roboto, sans-serif;
 }
+
 .link {
   text-decoration: none;
 }
+
 button {
   font-family: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .btn {
@@ -116,7 +124,7 @@ button {
 }
 
 .shadow {
-  background-color: inherit;
+  background-color: #ffffff;
 }
 
 .teamteam {
@@ -196,8 +204,9 @@ button {
 .container .our-portfolio li {
   font-size: 0;
 }
+
 .our-porfolio-border {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border: 1px solid #eeeeee;
   border-top-color: transparent;
 }
@@ -323,15 +332,28 @@ button {
 }
 
 /* footer */
-.footer .container {
-  height: 250px;
+.container-footer {
+  max-width: var(--container-width);
+  margin: auto;
+  width: auto;
+}
+
+.container-footer .footer-list {
+  width: 231px;
+  height: 81px;
+}
+
+.footer .container-footer {
+  height: 252px;
   padding-top: 60px;
 }
 
 .address {
+  width: 231px;
+  height: 21px;
   padding-bottom: 60px;
 }
-.container .web-studio-footer {
+.container-footer .web-studio-footer {
   padding-top: 60px;
 }
 .address {
