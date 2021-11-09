@@ -75,6 +75,10 @@ button {
   margin: auto;
 }
 
+.section-benefits {
+  padding-top: 94px;
+}
+
 .advantages {
   display: flex;
   justify-content: space-between;
@@ -98,7 +102,7 @@ button {
 .advantages .function {
   color: var(--accent-color);
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.71;
   width: 270px;
   height: 75px;
 }
@@ -117,9 +121,10 @@ button {
   border-top-color: transparent;
 }
 
-/* .section-work {
+.section-work {
   padding-bottom: 94px;
-} */
+  padding-top: 94px;
+}
 
 .our-work,
 .our-team {
@@ -300,6 +305,7 @@ button {
 /* Section service */
 
 .section-title {
+  padding-left: 24px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -307,7 +313,9 @@ button {
   letter-spacing: 0.06em;
 }
 
-.section-work {
+.section-work-type {
+  padding-left: 24px;
+  padding-bottom: 20px;
   color: var(--accent-color);
   font-weight: 400;
   font-size: 16px;
@@ -316,6 +324,13 @@ button {
 }
 
 /* footer */
+.footer .container {
+  height: 252px;
+}
+
+.container .web-studio-footer {
+  padding-top: 60px;
+}
 .address {
   font-style: normal;
 }
@@ -324,7 +339,7 @@ button {
   color: #ffffff;
 }
 
-.web-studio-footer {
+.footer .web-studio-footer {
   font-family: Raleway;
   color: var(--main-index-color);
   font-weight: 700;
@@ -380,3 +395,4 @@ button {
 .teamteam li:not(:last-child),
 .team li:not(:last-child) {
   margin-right: 30px;
+}
