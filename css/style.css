@@ -216,6 +216,9 @@ img {
 
 .width-picture-bot {
   margin-bottom: 30px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
 }
 
 .button-nav {
@@ -353,7 +356,6 @@ img {
 /* Section service */
 
 .section-title {
-  padding-left: 24px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -362,8 +364,6 @@ img {
 }
 
 .section-work-type {
-  padding-left: 24px;
-  padding-bottom: 20px;
   color: var(--accent-color);
   font-weight: 400;
   font-size: 16px;
@@ -371,6 +371,11 @@ img {
   letter-spacing: 0.03em;
 }
 
+.width-picture-bot .our-porfolio-border {
+  /* padding-left: 24px;
+  padding-top: 20px; */
+  padding: 20px 24px 20px 24px;
+}
 /* footer */
 .container-footer {
   max-width: var(--container-width);
