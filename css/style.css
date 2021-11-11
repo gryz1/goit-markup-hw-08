@@ -16,8 +16,14 @@
 }
 
 .header {
-  display: flex;
   border-bottom: 1px solid #ececec;
+}
+
+.header .container {
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
 }
 
 .header * {
@@ -25,6 +31,16 @@
 }
 
 /* global style and style decor */
+h1,
+h2,
+h3,
+li,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .list {
   list-style: none;
   padding-inline-start: 0;
@@ -108,6 +124,7 @@ img {
 }
 
 .advantages .function {
+  margin-top: 10px;
   color: var(--accent-color);
   font-size: 14px;
   line-height: 1.71;
@@ -116,6 +133,8 @@ img {
 }
 
 .team {
+  margin-bottom: 94px;
+  padding: 0 15px;
   background-color: inherit;
 }
 
@@ -127,7 +146,11 @@ img {
   background-color: #ffffff;
 }
 
-.teamteam {
+.employee {
+  background-color: #f5f4fa;
+}
+.container-teamteam {
+  background-color: #f5f4fa;
   border: 1px solid #eeeeee;
   border-top-color: transparent;
 }
@@ -137,8 +160,19 @@ img {
   padding-top: 94px;
 }
 
-.our-work,
 .our-team {
+  margin-top: 94px;
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.our-work {
+  margin-top: 0%;
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -152,12 +186,7 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-}
-
-.container .what-we-do {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  letter-spacing: 0.03em;
 }
 
 .work-our-teammate {
@@ -165,6 +194,18 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.shadow .our-porfolio-border {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container .what-we-do {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* Body Porfolio*/
@@ -199,20 +240,13 @@ img {
   font-size: 0;
 }
 
-.our-porfolio-border {
-  border: 1px solid #eeeeee;
-  border-top-color: transparent;
-}
-
-/* Header maket */
 .web-studio span,
 .web-studio-footer span {
   color: var(--active-color);
 }
 
-.web-studio {
-  margin-right: 90px;
-  align-items: center;
+.link.web-studio {
+  margin-right: 93px;
   font-family: Raleway;
   color: #000000;
   font-weight: 700;
@@ -223,7 +257,16 @@ img {
 
 /*  Navigator header */
 
-.site-nav .link {
+.site-nav {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link {
+  align-items: center;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -271,14 +314,15 @@ img {
 
 .banner .btn {
   display: block;
-  margin: 40px auto;
   padding: 10px 32px;
+  margin: auto;
+  margin-top: 30px;
   border-radius: 5px;
-  color: var(--title-text-color);
+  color: var(--main-index-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  background-color: var(--primary-bg-color);
+  background-color: var(--active-color);
   flex-wrap: wrap;
 }
 
@@ -334,24 +378,11 @@ img {
   width: auto;
 }
 
-.container-footer .footer-list {
-  width: 231px;
-  height: 81px;
-}
-
 .footer .container-footer {
-  height: 252px;
   padding-top: 60px;
-}
-
-.address {
-  width: 231px;
-  height: 21px;
   padding-bottom: 60px;
 }
-.container-footer .web-studio-footer {
-  padding-top: 60px;
-}
+
 .address {
   font-style: normal;
 }
@@ -360,7 +391,9 @@ img {
   color: #ffffff;
 }
 
-.footer .web-studio-footer {
+.link.web-studio-footer {
+  display: block;
+  margin-bottom: 20px;
   font-family: Raleway;
   color: var(--main-index-color);
   font-weight: 700;
@@ -384,11 +417,11 @@ img {
 
 .banner {
   height: 600px;
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .address .link {
-  color: var(--accent-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -402,22 +435,13 @@ img {
   opacity: 1;
 }
 
-.container-employee {
-  background-color: #f5f4fa;
-  height: auto;
-}
-
-.container-employee .teamteam {
-  padding-bottom: 94px;
-}
-
-.teamteam .team {
+.container-teamteam .team {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
 }
 
-.teamteam li:not(:last-child),
+.container-teamteam li:not(:last-child),
 .team li:not(:last-child) {
   margin-right: 30px;
 }
