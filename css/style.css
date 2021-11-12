@@ -176,6 +176,7 @@ img {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .work-our-teammate {
@@ -198,8 +199,8 @@ img {
 }
 
 .shadow .team-details {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .container .what-we-do {
@@ -216,8 +217,8 @@ img {
 
 .width-picture-bot {
   margin-bottom: 30px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
@@ -332,7 +333,7 @@ img {
 .banner .btn:hover,
 .banner .btn:focus {
   --title-text-color: var(--primary-background-color);
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .button-nav .btn {
@@ -383,7 +384,7 @@ img {
   width: auto;
 }
 
-.footer .container-footer {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -441,5 +442,5 @@ img {
 
 .container-footer li:not(:last-child),
 .footer-list li:not(:last-child) {
-  padding-bottom: 9px;
-  
+  margin-bottom: 9px;
+}
