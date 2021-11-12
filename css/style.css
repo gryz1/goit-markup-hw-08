@@ -332,7 +332,7 @@ img {
 .banner .btn:hover,
 .banner .btn:focus {
   --title-text-color: var(--primary-background-color);
-  background-color: var(--active-color);
+  background-color: #188CE8;
 }
 
 .button-nav .btn {
@@ -421,9 +421,8 @@ img {
 }
 
 .banner {
-  height: 600px;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .address .link {
