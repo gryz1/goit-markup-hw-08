@@ -435,6 +435,12 @@ img {
   padding-bottom: 200px;
 }
 
+.banner {
+  background: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+}
+
 .address .link {
   font-weight: 400;
   font-size: 14px;
