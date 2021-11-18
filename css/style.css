@@ -116,9 +116,10 @@ img {
 .icon-advantajes {
   width: 270px;
   height: 120px;
-  /* background-size: contain; */
   background-color: #f5f4fa;
-  /* background-position: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .advantages .company-advantages {
@@ -129,6 +130,7 @@ img {
   text-transform: uppercase;
   height: 16px;
   margin-left: center;
+  margin-top: 30px;
 }
 
 .advantages .function {
