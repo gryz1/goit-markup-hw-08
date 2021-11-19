@@ -201,6 +201,16 @@ img {
   justify-content: space-between;
 }
 
+.social-network {
+  display: flex;
+  justify-content: center;
+}
+
+.social-network-icon-link {
+  width: 44px;
+  height: 44px;
+}
+
 /* Body Porfolio*/
 .page {
   background-color: var(--primary-bg-color);
