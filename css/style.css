@@ -50,10 +50,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.link {
-  text-decoration: none;
-}
-
 button {
   font-family: inherit;
 }
@@ -152,25 +148,11 @@ img {
 
 .employee {
   background-color: #f5f4fa;
-  padding: 94px 0;
 }
 
-.section-work {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
-.our-team {
-  margin-bottom: 50px;
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
-
+.our-team,
+.our-customers,
 .our-work {
-  margin-top: 0%;
   margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -297,6 +279,11 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link-icon {
+  margin-right: 10px;
 }
 
 .site-nav li:not(:last-child),
@@ -329,6 +316,7 @@ img {
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   --accent-color: var(--active-color);
+  --color4: var(--active-color);
 }
 
 /* Section button */
@@ -396,6 +384,28 @@ img {
 .width-picture-bot .our-porfolio-border {
   padding: 20px 24px 20px 24px;
 }
+
+.regular-customers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regular-customers .customer {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.regular-customers .customer:hover {
+  --color3: var(--active-color);
+  border-color: var(--active-color);
+}
+
 /* footer */
 .container-footer {
   max-width: var(--container-width);
