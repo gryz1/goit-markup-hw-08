@@ -329,7 +329,7 @@ img {
   --title-text-color: var(--active-color);
 }
 
-.site-nav .link .current {
+.site-nav .link.current {
   color: var(--active-color);
 }
 
