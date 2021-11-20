@@ -185,8 +185,7 @@ img {
   justify-content: center;
 }
 
-.container-teamteam li:not(:last-child),
-.team li:not(:last-child) {
+.team > li:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -202,6 +201,7 @@ img {
 }
 
 .social-network {
+  margin-top: 16px;
   display: flex;
   justify-content: center;
 }
@@ -209,6 +209,24 @@ img {
 .social-network-icon-link {
   width: 44px;
   height: 44px;
+}
+
+.social-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.social-icon:hover {
+  --color3: #ffffff;
+  background-color: var(--active-color);
+}
+
+.social-network-icon-link + .social-network-icon-link {
+  margin-left: 10px;
 }
 
 /* Body Porfolio*/
@@ -418,6 +436,7 @@ img {
 
 /* footer */
 .container-footer {
+  display: flex;
   max-width: var(--container-width);
   margin: auto;
   width: auto;
@@ -445,6 +464,30 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.footer-left {
+  margin-right: 70px;
+}
+
+.footer-social h4 {
+  margin-top: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-social .social-network {
+  margin: 0;
+}
+
+.footer-social .social-icon {
+  --color3: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .list .location {
@@ -493,7 +536,7 @@ img {
   opacity: 1;
 }
 
-.container-footer li:not(:last-child),
+.container-footer .footer-left li:not(:last-child),
 .footer-list li:not(:last-child) {
   margin-bottom: 9px;
 }
