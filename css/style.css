@@ -490,6 +490,10 @@ img {
   background: rgba(255, 255, 255, 0.1);
 }
 
+.footer-social .social-icon:hover {
+  background: var(--active-color);
+}
+
 .list .location {
   color: var(--main-index-color);
   font-weight: 400;
