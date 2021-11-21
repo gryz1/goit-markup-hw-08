@@ -220,12 +220,12 @@ img {
   border-radius: 50%;
 }
 
-.social-icon:hover {
+.social-network-icon-link .social-icon:hover {
   --color3: #ffffff;
   background-color: var(--active-color);
 }
 
-.social-icon:focus {
+.social-network-icon-link .social-icon:focus {
   --color3: #ffffff;
   background-color: var(--active-color);
 }
