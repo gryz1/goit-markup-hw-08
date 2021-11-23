@@ -55,9 +55,19 @@
     <main>
         <!-- button-nav list -->
         <section class="banner section">
-            <div class="">
+            <div>
                 <h1 class="banner-title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="btn">Заказать услугу</button>
+                <button data-modal-open type="button" class="btn">Заказать услугу</button>
+            </div>
+
+            <div data-modal class="backdrop is-hidden">
+                <div data-modal-close class="modal">
+                    <button class="button-close">
+                        <svg class="button-close-icon" height=18 width=18>
+                            <use href="./img/icons.svg#button-close"></use>
+                        </svg>
+                    </button>
+                </div>               
             </div>
         </section>
 
@@ -75,7 +85,6 @@
                         <h3 class="company-advantages">Внимание к деталям</h3>
                         <p class="function">Идейные соображения, а также начало повседневной работы по формированию
                             позиции.</p>
-
                     </li>
 
                     <li class="advantage">
@@ -118,10 +127,12 @@
         <section class="section">
             <div class="container">
                 <h2 class="our-work">Чем мы занимаемся</h2>
-                <ul class="what-we-do list">
-                    <li><img src="./img/keyboard.jpg" alt="управление с клавиатуры" width="370" height="294"></li>
-                    <li><img src="./img/telephone.jpg" alt="управление с телефона" width="370" height="294"></li>
-                    <li><img src="./img/notebook.jpg" alt="управление с планшета" width="370" height="294"></li>
+                <ul class="what-we-do list">                   
+                        <li><img src="./img/keyboard.jpg" alt="управление с клавиатуры" width="370" height="294"><div class="services">Десктопные приложения</div></li>                                                              
+                        <li><img src="./img/telephone.jpg" alt="управление с телефона" width="370" height="294"><div class="services">Мобильные приложения</div></li>                                                              
+                        <li><img src="./img/notebook.jpg" alt="управление с планшета" width="370" height="294"><div class="services">Дизайнерские решения</div></li>
+                        
+                    
                 </ul>
             </div>
         </section>
@@ -254,29 +265,23 @@
                             <ul class="list social-network">
                                 <li class="social-network-icon-link">
                                     <a class="social-icon" href="#" target="_blank" rel="noopener noreferrer">
-
                                         <svg height=20 width=20>
                                             <use xlink:href="./img/icons.svg#instagram"></use>
                                         </svg>
-
                                     </a>
                                 </li>
                                 <li class="social-network-icon-link">
                                     <a class="social-icon" href="#" target="_blank" rel="noopener noreferrer">
-
                                         <svg height=20 width=20>
                                             <use xlink:href="./img/icons.svg#twitter"></use>
                                         </svg>
-
                                     </a>
                                 </li>
                                 <li class="social-network-icon-link">
                                     <a class="social-icon" href="#" target="_blank" rel="noopener noreferrer">
-
                                         <svg height=20 width=20>
                                             <use xlink:href="./img/icons.svg#facebook"></use>
                                         </svg>
-
                                     </a>
                                 </li>
                                 <li class="social-network-icon-link">
@@ -395,6 +400,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
