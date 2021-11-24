@@ -16,7 +16,6 @@
 }
 
 .header {
-  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -26,9 +25,10 @@
 
 .header .container {
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
   display: flex;
+  height: 80px;
 }
 
 .header * {
@@ -208,12 +208,13 @@ img {
 
 .what-we-do li {
   position: relative;
-  top: 0;
+  left: 0;
   bottom: 0;
 }
 
 .services {
   position: absolute;
+  left: 0;
   bottom: 0;
   padding-top: 27px;
   width: 370px;
@@ -246,6 +247,9 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-network-icon-link .social-icon:hover {
@@ -264,7 +268,6 @@ img {
 
 /* Body Porfolio*/
 .page {
-  padding-top: 80px;
   background-color: var(--primary-bg-color);
   color: var(--primary-text-colour);
 }
@@ -274,8 +277,10 @@ img {
   box-sizing: border-box;
 }
 
-.width-picture-bot img {
-  position: absolute;
+..width-picture-bot img {
+  position: relative;
+  top: 0;
+  bottom: 0;
 }
 
 .width-picture-bot:hover {
@@ -289,8 +294,11 @@ img {
 }
 
 .discription-portfolio {
+  position: absolute;
   width: 370px;
   height: 294px;
+  transform: translateY(-100%);
+  transition: transform 250ms ease;
   padding-top: 63px;
   padding-left: 24px;
   font-size: 18px;
@@ -355,6 +363,11 @@ img {
   letter-spacing: 0.02em;
 }
 
+.site-nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .link {
   align-items: center;
   color: var(--title-text-color);
@@ -363,6 +376,9 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon {
@@ -380,13 +396,31 @@ img {
   --title-text-color: var(--active-color);
 }
 
-.site-nav .link.current {
+.site-nav.link.current {
   color: var(--active-color);
+}
+
+.link.current {
+  position: relative;
+}
+
+.link.current::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: var(--active-color);
+  border-radius: 2px;
+  bottom: -1px;
+  left: 0;
 }
 
 /*  Conctact header*/
 .contact-nav {
   margin-left: auto;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-nav .link {
@@ -420,6 +454,9 @@ img {
   line-height: 1.87;
   background-color: var(--active-color);
   flex-wrap: wrap;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -429,6 +466,8 @@ img {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -447,6 +486,7 @@ img {
 }
 
 .button-close {
+  display: flex;
   width: 30px;
   height: 30px;
   align-items: center;
@@ -459,13 +499,15 @@ img {
   color: transparent;
   display: flex;
   cursor: pointer;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .modal button {
-  margin-top: 8px;
-  margin-left: 490px;
-  margin-right: 8px;
-} */
+.button-close:focus,
+.button-close:hover {
+  background: var(--active-color);
+}
 
 .banner .btn:hover,
 .banner .btn:focus {
@@ -480,10 +522,9 @@ img {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.06em;
-}
-
-.button-nav li:not(:last-child) {
-  margin-right: 10px;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-nav .btn:hover,
@@ -495,6 +536,9 @@ img {
   border-radius: 4px;
 }
 
+.button-nav li:not(:last-child) {
+  margin-right: 10px;
+}
 /* Section service */
 
 .section-title {
@@ -531,6 +575,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-customers .customer:hover,
