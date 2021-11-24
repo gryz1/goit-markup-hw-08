@@ -505,11 +505,16 @@ img {
   transform: translate(-50%, -50%);
   min-width: 528px;
   min-height: 581px;
-  background-color: #ffffff;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .button-close {
-  display: flex;
+  /* display: flex; */
   width: 30px;
   height: 30px;
   align-items: center;
@@ -529,7 +534,7 @@ img {
 
 .button-close:focus,
 .button-close:hover {
-  background: var(--active-color);
+  --color3: var(--accent-colortive-color);
 }
 
 .banner .btn:hover,
