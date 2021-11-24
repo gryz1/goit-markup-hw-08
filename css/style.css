@@ -277,7 +277,7 @@ img {
   box-sizing: border-box;
 }
 
-..width-picture-bot img {
+.width-picture-bot img {
   position: relative;
   top: 0;
   bottom: 0;
@@ -483,6 +483,7 @@ img {
 }
 
 .backdrop {
+  /* z-index: 1; */
   position: fixed;
   top: 0;
   left: 0;
