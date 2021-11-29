@@ -400,30 +400,30 @@
             </button>
 
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-            <form>
-                <div>
+            <form class="form">
+                <div class="form-field">
                     <label for="name" autofocus>Имя</label>
                     <input type="text" name="name" id="name">
                 </div>
 
-                <div>
+                <div class="form-field">
                     <label for="tel">Телефон</label>
                     <input type="tel" name="tel" id="tel">
                 </div>
 
-                <div>
+                <div class="form-field">
                     <label for="mail">Почта</label>
                     <input type="email" name="mail" id="mail">
                 </div>
 
-                <div>
+                <div class="form-field">
                     <label for="comment">Комментарий</label>
                     <textarea name="comment" id="comment" cols="30" rows="8" placeholder="Введите текст"></textarea>
                 </div>  
                 
-                <div>
-                    <input type="checkbox" name="pilicy" id="policy">
-                    <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                <div class="checkbox">
+                    
+                    <label for="policy"><input type="checkbox" name="policy" id="policy" class="policy-text">Соглашаюсь с рассылкой и принимаю<a href="http://" target="_blank" rel="noopener noreferrer">Условия договора</a></label>
                 </div>
 
                 <button type="submit">Отправить</button>
