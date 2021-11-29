@@ -515,7 +515,6 @@ img {
 }
 
 .button-close {
-  /* display: flex; */
   width: 30px;
   height: 30px;
   align-items: center;
@@ -543,6 +542,15 @@ img {
   color: var(--main-index-color);
   --title-text-color: var(--primary-background-color);
   background-color: #188ce8;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .button-nav .btn {
