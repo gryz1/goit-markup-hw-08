@@ -778,6 +778,7 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  outline: none;
 }
 
 textarea {
@@ -786,6 +787,7 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  outline: none;
 }
 
 textarea input::placeholder {
@@ -800,13 +802,18 @@ textarea input::placeholder {
   text-align: center;
 }
 
+.checkbox input[type='checkbox'] {
+}
+
 .policy-text {
   width: 16px;
   height: 15px;
-
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.button-send {
 }
