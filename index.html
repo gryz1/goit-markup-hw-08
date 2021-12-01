@@ -403,17 +403,26 @@
             <form  action="#" class="form">
                 <div class="form-field">
                     <label for="name" autofocus>Имя</label>
-                    <input type="text" name="name" id="name"  minlength="2" required autofocus>
+                    <input type="text" name="name" id="name"  minlength="2" placeholder=" " required autofocus>
+                    <svg height=18 width=18>
+                        <use xlink:href="./img/icons.svg#person-black-1"></use>
+                    </svg>
                 </div>
 
                 <div class="form-field">
                     <label for="tel">Телефон</label>
-                    <input type="tel" name="tel" id="tel" required>
+                    <input type="tel" name="tel" id="tel" placeholder=" " required>
+                    <svg height=18 width=18>
+                        <use xlink:href="./img/icons.svg#phone-black-1"></use>
+                    </svg>
                 </div>
 
                 <div class="form-field">
                     <label for="mail">Почта</label>
-                    <input type="email" name="mail" id="mail" required>
+                    <input type="email" name="mail" id="mail" placeholder=" " required>
+                    <svg height=18 width=18>
+                        <use xlink:href="./img/icons.svg#email-black-1"></use>
+                    </svg>
                 </div>
 
                 <div class="form-field">
@@ -426,7 +435,9 @@
                     <label for="policy"><input type="checkbox" name="policy" id="policy" class="policy-text">Соглашаюсь с рассылкой и принимаю<a href="http://" target="_blank" rel="noopener noreferrer">Условия договора</a></label>
                 </div>
 
-                <button type="submit" class="button-send">Отправить</button>
+                <div class="button-send-modal">
+                    <button type="submit" class="button-send">Отправить</button>
+                </div>
             </form>
 
         </div>
