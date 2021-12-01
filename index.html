@@ -402,43 +402,54 @@
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form  action="#" class="form">
                 <div class="form-field">
-                    <label for="name" autofocus>Имя</label>
-                    <div class="input-name">
-                        <input type="text" name="name" id="name"  minlength="2" placeholder=" " required autofocus>
-                        <svg height=18 width=18 class="icon-modal">
-                            <use xlink:href="./img/icons.svg#person-black-1"></use>
-                        </svg>
-                    </div>
+                    <label for="name" autofocus>Имя
+                        <div class="input-name">
+                            <input type="text" name="name" id="name"  minlength="2" placeholder=" " required autofocus>
+                            <svg height=18 width=18 class="icon-modal">
+                                <use xlink:href="./img/icons.svg#person-black-1"></use>
+                            </svg>
+                        </div>
+                    </label>
                 </div>
 
                 <div class="form-field">
-                    <label for="tel">Телефон</label>
+                    <label for="tel">Телефон
                     <div class="input-name">
                         <input type="tel" name="tel" id="tel" placeholder=" " required>
                         <svg height=18 width=18 class="icon-modal">
                             <use xlink:href="./img/icons.svg#phone-black-1"></use>
                         </svg>
                     </div>
+                    </label>
                 </div>
 
                 <div class="form-field">
-                    <label for="mail">Почта</label>
+                    <label for="mail">Почта
                     <div class="input-name">
                         <input type="email" name="mail" id="mail" placeholder=" " required>
                         <svg height=18 width=18 class="icon-modal">
                             <use xlink:href="./img/icons.svg#email-black-1"></use>
                         </svg>
                     </div>
+                    </label>
                 </div>
 
                 <div class="form-field">
-                    <label for="comment">Комментарий</label>
-                    <textarea name="comment" id="comment" cols="30" rows="8" placeholder="Введите текст"></textarea>
-                </div>  
+                    <label for="comment" class="comment">
+                        Комментарий
+                        <div class="input-name">
+                            <textarea name="comment" id="comment" cols="30" rows="8" placeholder="Введите текст"></textarea>
+                        </div>
+                    </label> 
                 
                 <div class="checkbox">
                     
-                    <label for="policy"><input type="checkbox" name="policy" id="policy" class="policy-text">Соглашаюсь с рассылкой и принимаю<a href="http://" target="_blank" rel="noopener noreferrer">Условия договора</a></label>
+                    <label for="policy" class="check">
+                        <input type="checkbox" name="policy" id="policy" class="check-input">
+                        <span class="check-box"></span>
+                        <span class="accept-licence">Соглашаюсь с рассылкой и принимаю</span>
+                    </label>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><span class="license">Условия договора</span></a>
                 </div>
 
                 <div class="button-send-modal">
