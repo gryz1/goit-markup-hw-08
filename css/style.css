@@ -793,7 +793,6 @@ img {
 
 .button-close:focus,
 .button-close:hover {
-  border-color: var(--modal-button-active);
   fill: var(--modal-button-active);
 }
 
@@ -991,6 +990,7 @@ textarea::placeholder {
 }
 
 .button-send-modal {
+  padding-bottom: 40px;
   padding-top: 30px;
   display: flex;
   justify-content: center;
