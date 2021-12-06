@@ -576,6 +576,7 @@ img {
 }
 
 .footer-left {
+  width: 231px;
   margin-right: 70px;
 }
 
@@ -622,12 +623,7 @@ img {
 
 .footer-subscribe-container {
   display: flex;
-  margin-left: 93px;
-}
-
-.test566 {
-  display: block;
-  margin-top: 0;
+  margin-left: auto;
 }
 
 .footer-subscribe-form {
