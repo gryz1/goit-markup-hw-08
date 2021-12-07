@@ -924,6 +924,11 @@ textarea::placeholder {
   color: #757575;
 }
 
+.label-title {
+  display: block;
+  margin-bottom: 4px;
+}
+
 .chek-box {
   display: flex;
   align-items: center;
@@ -962,7 +967,7 @@ textarea::placeholder {
 .checkbox-info::before {
   content: '';
   width: 16px;
-  height: 16px;
+  height: 15px;
   display: inline-block;
   top: 4px;
   left: -5px;
@@ -970,8 +975,6 @@ textarea::placeholder {
 }
 
 .accept-licence {
-  width: 16px;
-  height: 15px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -993,7 +996,6 @@ textarea::placeholder {
 }
 
 .button-send-modal {
-  padding-bottom: 40px;
   padding-top: 30px;
   display: flex;
   justify-content: center;
@@ -1008,6 +1010,7 @@ textarea::placeholder {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background: var(--active-color);
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
