@@ -762,6 +762,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 40px;
   transform: translate(-50%, -50%);
   min-width: 528px;
   min-height: 581px;
@@ -806,16 +807,13 @@ img {
 
 /*  Modal Window */
 .modal-title {
+  margin-bottom: 12px;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-}
-
-.modal .modal-title {
-  padding-top: 40px;
 }
 
 .comment textarea {
@@ -825,15 +823,10 @@ img {
   /* font-size: 12px; */
 }
 
-.modal .modal-title {
-  padding-top: 40px;
-}
-
 .form {
   width: 448px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 12px;
 }
 
 .form-field {
@@ -843,7 +836,6 @@ img {
 }
 
 .form-field label {
-  margin-bottom: 4px;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
