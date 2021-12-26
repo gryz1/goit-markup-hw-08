@@ -3,10 +3,10 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-// .activity-section__title {
-//   @include title(2700, 36px, 1.17, center, 0.03em, var(--second-tittle-color));
-//   margin-bottom: 50px;
-// }
+.activity-section__title {
+  @include title(700, 36px, 1.17, center, 0.03em, var(--second-tittle-color));
+  margin-bottom: 50px;
+}
 .activity-section__list {
   display: flex;
 }
