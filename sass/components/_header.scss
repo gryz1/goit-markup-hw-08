@@ -5,9 +5,11 @@
   border-bottom: 1px solid #ececec;
   padding-left: 15px;
 }
+
 .header-container {
   display: flex;
 }
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -22,20 +24,24 @@
     margin-right: 93px;
   }
 }
+
 .header-navigation {
   display: flex;
   align-items: center;
 }
+
 .header-navigation__list {
   display: flex;
   align-items: center;
 }
+
 .header-navigation__item {
   position: relative;
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
+
 .header-navigation__link {
   color: var(--second-tittle-color);
   font-weight: 500;
@@ -53,13 +59,16 @@
     color: var(--accent-color);
   }
 }
+
 .header-contacts {
   margin-left: auto;
 }
+
 .header-contacts_list {
   display: flex;
   align-items: center;
 }
+
 .header-contacts__mail {
   display: flex;
   font-weight: 500;
@@ -77,6 +86,7 @@
     color: var(--accent-color);
   }
 }
+
 .header-contacts__tel {
   display: flex;
   font-weight: 500;
@@ -93,6 +103,7 @@
     color: var(--accent-color);
   }
 }
+
 .header-contacts__svg {
   margin-right: 10px;
   fill: currentColor;
