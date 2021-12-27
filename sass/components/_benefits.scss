@@ -2,9 +2,11 @@
   padding-top: 94px;
   background-color: var(--main-background-color);
 }
+
 .benefits-section__list {
   display: flex;
 }
+
 .benefits-section__container {
   display: flex;
   background: #f5f4fa;
@@ -15,12 +17,14 @@
   justify-content: center;
   align-items: center;
 }
+
 .benefits-section__item {
   max-width: 270px;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
+
 .benefits-section__item .benefits-section__title {
   font-weight: 700;
   font-size: 14px;
@@ -29,6 +33,7 @@
   text-transform: uppercase;
   color: var(--third-tittle-color);
 }
+
 .benefits-section__text {
   font-weight: normal;
   font-size: 14px;

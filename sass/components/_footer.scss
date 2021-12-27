@@ -4,19 +4,24 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer__container {
   display: flex;
 }
+
 .footer__logo {
   padding-top: 0;
   padding-bottom: 0;
 }
+
 .footer__studio {
   color: #ffffff;
 }
+
 .address__item {
   margin-top: 20px;
 }
+
 .address__link {
   font-style: normal;
   font-size: 14px;
@@ -31,12 +36,15 @@
     color: var(--accent-color);
   }
 }
+
 .footer-contacts_item {
   margin-top: 9px;
 }
+
 .footer-social__container {
   margin-left: 70px;
 }
+
 .footer-social__title {
   font-size: 14px;
   line-height: 1.14;
@@ -46,6 +54,7 @@
   margin-bottom: 20px;
   margin-top: 12px;
 }
+
 .footer-social__link {
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
@@ -54,13 +63,16 @@
     background-color: var(--accent-color);
   }
 }
+
 .footer-subscribe__container {
   display: flex;
   margin-left: 93px;
 }
+
 .footer-subscribe__form {
   display: flex;
 }
+
 .footer-subscribe__label {
   font-family: Roboto;
   font-style: normal;
@@ -73,6 +85,7 @@
   color: #ffffff;
   width: 358px;
 }
+
 .footer-subscribe__input {
   width: 358px;
   height: 50px;
@@ -100,6 +113,7 @@
     outline: 0;
   }
 }
+
 .footer-subscribe__btn {
   width: 200px;
   height: 50px;
