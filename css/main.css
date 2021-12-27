@@ -774,6 +774,10 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal__input-icon:hover, .modal__input-icon:focus {
+  fill: var(--accent-color);
+}
+
 .modal__online-text {
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
