@@ -753,7 +753,7 @@ body {
   border: 1px solid var(--accent-color);
 }
 
-.modal__input:focus + .input-icon {
+.modal__input:focus + .modal__input-icon {
   fill: var(--accent-color);
 }
 
@@ -772,10 +772,6 @@ body {
   transition-property: fill;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal__input-icon:hover, .modal__input-icon:focus {
-  fill: var(--accent-color);
 }
 
 .modal__online-text {

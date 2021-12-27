@@ -82,7 +82,7 @@
   &:focus {
     border: 1px solid var(--accent-color);
   }
-  &:focus + .input-icon {
+  &:focus + .modal__input-icon {
     fill: var(--accent-color);
   }
   &::placeholder {
@@ -101,10 +101,6 @@
   transition-property: fill;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    fill: var(--accent-color);
-  }
 }
 
 .modal__online-text {
