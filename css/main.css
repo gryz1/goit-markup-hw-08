@@ -275,26 +275,54 @@ body {
   fill: currentColor;
 }
 
+.hero-container {
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-container {
+    max-width: 696px;
+  }
+}
+
 .hero-section {
+  margin: 0 auto;
+  max-width: 1600px;
+  text-align: center;
   background-color: var(--second-background-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
 .hero-section__title {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-tittle-color);
-  max-width: 696px;
-  margin: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-section__title {
+    font-style: 44px;
+    line-height: 1.36;
+  }
 }
 
 .hero-section__button {
