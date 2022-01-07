@@ -578,8 +578,8 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
+  color: var(--second-tittle-color);
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -591,6 +591,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--second-tittle-color);
     max-width: 1200px;
+    margin-bottom: 50px;
+    font-size: 36px;
   }
 }
 
@@ -660,31 +662,90 @@ body {
 
 .clients {
   background-color: var(--main-background-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.clients-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .clients-container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .clients-container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients-container {
+    max-width: 1200px;
+  }
 }
 
 .clients-title {
-  font-weight: 700;
-  font-size: 36px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-tittle-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .clients-title {
+    max-width: 1200px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-tittle-color);
+    margin-bottom: 50px;
+  }
 }
 
 .clients-list {
   display: flex;
+  flex-wrap: wrap;
+  margin-right: 30px;
 }
 
 .clients-list__item {
-  width: 170px;
-  height: 92px;
+  width: calc(100% / 2 - 30px);
+  height: 90px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
-.clients-list__item:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 768px) {
+  .clients-list__item {
+    width: calc(100% / 3 - 30px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients-list__item {
+    width: calc(100% / 6 - 30px);
+  }
 }
 
 .clients-list__link {
