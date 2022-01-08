@@ -737,7 +737,6 @@ body {
 
 @media screen and (min-width: 1200px) {
   .clients-title {
-    max-width: 1200px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;

@@ -35,7 +35,6 @@
   color: var(--second-tittle-color);
   margin-bottom: 30px;
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
     @include title(700, 36px, 1.17, center, 0.03em, var(--second-tittle-color));
     margin-bottom: 50px;
   }
