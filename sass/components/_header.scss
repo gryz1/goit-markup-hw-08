@@ -6,7 +6,6 @@
   @media screen and (min-width: 768px) {
   }
 }
-
 .header-container {
   width: 100%;
   margin-left: auto;
@@ -26,7 +25,6 @@
     max-width: 1200px;
   }
 }
-
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -48,12 +46,10 @@
     line-height: 1.19;
   }
 }
-
 .header-navigation {
   display: flex;
   align-items: center;
 }
-
 .header-navigation__list {
   display: none;
   @media screen and (min-width: 768px) {
@@ -63,14 +59,12 @@
     padding-bottom: 21px;
   }
 }
-
 .header-navigation__item {
   position: relative;
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
-
 .header-navigation__link {
   color: var(--second-tittle-color);
   font-weight: 500;
@@ -88,11 +82,9 @@
     color: var(--accent-color);
   }
 }
-
 .header-contacts {
   margin-left: auto;
 }
-
 .header-contacts_list {
   display: none;
   @media screen and (min-width: 768px) {
@@ -105,7 +97,6 @@
     align-items: center;
   }
 }
-
 .header-contacts__mail {
   display: flex;
   font-weight: 500;
@@ -131,12 +122,11 @@
     line-height: 1.14;
   }
 }
-
 .header-contacts__tel {
   display: flex;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--contacts-color);
   align-items: center;
@@ -152,13 +142,12 @@
     line-height: 1.14;
   }
 }
-
 .header-contacts__svg {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.mobile-menu-btn {
+.open-menu-btn {
   padding: 0;
   display: flex;
   justify-content: end;
