@@ -19,6 +19,8 @@
 </head>
 
 <body>
+
+    <!-- Хедер -->
     <header class="header">
         <div class="container header-container">
             <nav class="header-navigation">
@@ -26,9 +28,9 @@
                     Web<span class="logo__header">Studio</span>
                 </a>
                 <ul class="header-navigation__list list">
-                    <li class="header-navigation__item"><a class="link header-navigation__link"
+                    <li class="header-navigation__item"><a class="link header-navigation__link "
                             href="./index.html">Студия</a>
-
+    
                     </li>
                     <li class="header-navigation__item"><a class="link header-navigation__link current"
                             href="./portfolio.html">Портфолио</a>
@@ -41,7 +43,6 @@
                 <li><a class="header-contacts__mail link" href="mailto:info@devstudio.com">
                         <svg class="header-contacts__svg" width="16" height="12">
                             <use href="./images/icons.svg#icon-letter">
-
                             </use>
                         </svg>info@devstudio.com</a></li>
                 <li><a class="header-contacts__tel link" href="tel:+380961111111">
@@ -50,9 +51,52 @@
                             </use>
                         </svg>+38 096 111 11 11</a></li>
             </ul>
+    
+            <button type="button" class="open-menu-btn">
+                <svg class="header-menu__svg" width="24" height="16">
+                    <use href="./images/icons.svg#icon-menu">
+            </button>
         </div>
-
-
+    
+        <div class="mob-menu is-hidden">
+            <div class="mob-menu__container">
+                <div class="mob-menu__first">
+                    <button class="close-menu-btn">
+                        <svg class="close-menu-icon" width="19" height="19">
+                            <use href="./images/icons.svg#icon-close-menu"></use>
+                        </svg>
+                    </button>
+                    <ul class="mob-menu__list list">
+                        <li class="mob-menu__item "><a class="mob-menu__link link" href="./index.html">Студия</a></li>
+                        <li class="mob-menu__item"><a class="mob-menu__link link" href="./portfolio.html">Портфолио</a>
+                        </li>
+                        <li class="mob-menu__item"><a class="mob-menu__link link" href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="mob-menu__second">
+                    <ul class="mob-menu__contacts list">
+                        <li class="mob-menu__item-tel">
+                            <a class="mob-menu__tel link " href="">
+                                +38 096 111 11 11</a>
+                        </li>
+                        <li class="mob-menu__item-mail">
+                            <a class="mob-menu__mail link " href="">
+                                info@devstudio.com</a>
+                        </li>
+                    </ul>
+                    <ul class="mob-menu__social-list list">
+                        <li class="mob-menu__social-item"> <a class="mob-menu__social-link link" href="">Instagram</a>
+                        </li>
+                        <li class="mob-menu__social-item"> <a class="mob-menu__social-link link" href="">Twitter</a>
+                        </li>
+                        <li class="mob-menu__social-item"> <a class="mob-menu__social-link link" href="">Facebook</a>
+                        </li>
+                        <li class="mob-menu__social-item"> <a class="mob-menu__social-link link" href="">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
 
 
@@ -396,6 +440,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
