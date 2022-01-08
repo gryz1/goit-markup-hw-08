@@ -452,7 +452,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .hero-section__title {
-    font-style: 44px;
+    font-size: 44px;
     line-height: 1.36;
   }
 }
@@ -619,7 +619,6 @@ body {
 
 .activity-section {
   background-color: var(--main-background-color);
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -955,6 +954,7 @@ body {
 .footer-contacts__mail,
 .footer-contacts__tel {
   display: block;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (min-width: 1200px) {

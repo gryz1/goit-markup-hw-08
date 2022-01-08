@@ -45,6 +45,7 @@
 .footer-contacts__mail,
 .footer-contacts__tel {
   display: block;
+  color: rgba(255, 255, 255, 0.6);
   @media screen and (min-width: 1200px) {
     text-align: left;
   }
