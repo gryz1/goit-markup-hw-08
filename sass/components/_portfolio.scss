@@ -1,15 +1,36 @@
 .filter-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .filter-list {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
 .filter-section__list {
-  justify-content: center;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.filter-section__item {
+  margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
 .filter-section__item:not(:last-child) {
@@ -42,16 +63,39 @@
   }
 }
 
+.port-products-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
 .port-products__container {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  border-top: none;
+  @media screen and (min-width: 768px) and (max-width: 1199.5px) {
+    flex-grow: 1;
+  }
 }
 
 .port-products__list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: -30px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+    margin-left: -30px;
+  }
 }
 
 .port-products__title {
@@ -72,15 +116,16 @@
 }
 
 .port-products__item {
-  margin-right: 30px;
-  box-sizing: border-box;
   margin-bottom: 30px;
-  width: 370px;
   transition-property: box-shadow;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:nth-child(3n) {
-    margin-right: 0;
+  @media screen and (min-width: 768px) {
+    width: calc(100% / 2 - 30px);
+    margin-left: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc(100% / 3 - 30px);
   }
 }
 
@@ -106,6 +151,11 @@
 
 .port-products__link {
   display: block;
+  @media screen and (min-width: 768px) and (max-width: 1199.5px) {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
   &:hover,
   &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
